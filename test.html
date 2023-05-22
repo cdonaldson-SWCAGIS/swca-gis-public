@@ -1,1 +1,15 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Survey123 Report</title>
+</head>
+<body>
+    <form action="https://survey123.arcgis.com/share/{your-survey-id}/report/{response-id}" method="POST">
+        <label for="survey-id">Survey ID:</label><br>
+        <input type="text" id="survey-id" name="survey-id"><br>
+        <label for="respondent-id">Respondent ID:</label><br>
+        <input type="text" id="respondent-id" name="respondent-id"><br>
+        <input type="submit" value="Generate Report">
+    </form>
+</body>
+</html>
